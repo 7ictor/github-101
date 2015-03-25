@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Github 101</title>
+
+		<meta name="description" content="Introducción a Git & Github">
+		<meta name="author" content="Victor Rodríguez">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Github 101</h1>
+					<h3>Introducción a Git & Github</h3>
+					<p>
+						<a href="http://rodriguezv.com">Victor Rodríguez</a> / <a href="http://twitter.com/7ictor">@7ictor</a>
+					</p>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<ul>
+						<li>¿Qué es un Sistema de Control de Versiones?</li>
+						<li>¿Qué es Git?</li>
+						<li>Terminos utilizados y algunos comandos Git</li>
+						<li>¿Qué es Github?</li>
+						<li>¡Git en acción!</li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h2>¿Qué es un Sistema de Control de Versiones?</h2>
+						<p>"Una aplicación que les permite seguir y controlar los cambios realizados en los archivos de un proyecto (código fuente) de una manera estructurada y controlada."</p>
+					</section>
+					<section>
+						<h2>¿Porqué es necesario?</h2>
+						<ul>
+							<li>Hace más fácil el <b>deshacer errores</b>, revertir versiones anteriores.</li>
+							<li>Hace más fácil el <b>compartir código fuente</b> con otros programadores sin crear conflictos.</li>
+							<li>Hace más fácil el <b>distribuir cambios</b> de un ambiente de desarrollo a producción.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Sistemas populares para Control de Versiones</h2>
+						<ul>
+							<li>SVN - SubVersioN</li>
+							<li>Mercurial</li>
+							<li>Git</li>
+						</ul><br>
+						<img height="200px" data-src="http://svn.apache.org/repos/asf/subversion/trunk/notes/logo/256-colour/subversion_logo-384x332.png">
+						<img height="200px" data-src="http://www.selenic.com/hg-logo/logo-droplets-200.png">
+						<img height="200px" data-src="http://git-scm.com/images/logo@2x.png">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>¿Qué es Git?</h2>
+						<ul>
+							<li>Distributed Source Control.</li>
+							<li>Open source, gratis (GNU GPL V2).</li>
+							<li>Originalmente desarrollado por Linus Torvalds para el desarrollo del Linux Kernel en 2005.</li>
+							<li>Se enfoca en velocidad y eficiencia, diseño único, a veces da miedo y en ocasiones dificil de entender.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Qué es Git?</h2>
+						<ul>
+							<li>Graba snapshots, no diferencias.</li>
+							<li>Branching (ligero & rápido)</li>
+							<li>Merge automático de archivos.</li>
+							<li>Usado en proyectos personales o en proyectos grandes, y para cualquier tamaño de equipo.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Desarrollo distribuido</h2>
+						<ul>
+							<li>Cada "working directory" Git contiene el repositorio completo, historia y la capcidad completa de revisiones.</li>
+							<li>No son dependientes de un servidor central, y no necesitan estar conectados</li>
+							<li>Es extremadamente rápido - más que SVN, CVS y otros sistemas</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Terminos utilizados y algunos comandos Git</h2>
+					<ul>
+						<li>Command Line</li>
+						<li>Repository</li>
+						<li>Commit</li>
+						<li>Branch</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>¿Qué es Github?</h2>
+					<p> Es un servicio hosting de repositorios Git</p>
+					<p>Es el Facebook para desarrolladores</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide' // none/fade/slide/convex/concave/zoom
+			});
+
+		</script>
+
+	</body>
+</html>
